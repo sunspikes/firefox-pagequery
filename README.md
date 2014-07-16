@@ -2,7 +2,7 @@
 
 A simple Mozilla Firefox extension to Execute a jQuery/Javascript snippet on a web page on demand and see the response.
 
-Install it from [here](https://raw.githubusercontent.com/sunspikes/firefox-pagequery/bin/pagequery.xpi)
+Install it from [here](https://raw.githubusercontent.com/sunspikes/firefox-pagequery/master/bin/pagequery.xpi)
 
 Configure the web page URL and Code snippet in Addons > Extensions > PageQuery > Options after installation.
 
