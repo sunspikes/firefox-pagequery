@@ -6,8 +6,8 @@ Install it from [here](https://raw.githubusercontent.com/sunspikes/firefox-pageq
 
 Configure the web page URL and Code snippet in Addons > Extensions > PageQuery > Options after installation.
 
-![Configure](https://raw.githubusercontent.com/sunspikes/firefox-pagequery/master/doc/config.png =300x)
+![Configure](https://raw.githubusercontent.com/sunspikes/firefox-pagequery/master/doc/config.png)
 
 Once configured, click the PageQuery button from toolbar to execute the snippet.
 
-![Run PageQuery](https://raw.githubusercontent.com/sunspikes/firefox-pagequery/master/doc/run.png =300x)
+![Run PageQuery](https://raw.githubusercontent.com/sunspikes/firefox-pagequery/master/doc/run.png)
