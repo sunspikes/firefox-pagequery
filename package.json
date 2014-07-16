@@ -1,0 +1,23 @@
+{
+  "name": "pagequery",
+  "title": "PageQuery",
+  "id": "jid1-mSCY87q7o5wbXg",
+  "description": "Execute jQuery and show results from a web page.",
+  "author": "prasad@sunspikes.com",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [{
+        "name": "pqUrl",
+        "title": "URL",
+        "description": "The web page URL on which the the jQuery will be executed.",
+        "type": "string",
+        "value": "http://www.nokia.com/global/support/software-update/wp8-software-update/availability-in-europe/"
+    },
+    {
+        "name": "pqCode",
+        "title": "Code",
+        "description": "the jQuery one liner to be executed.",
+        "type": "string",
+        "value": "$('h3:contains(Finland)').next().find('td:contains(1020)').parent().find('td:last-child').text()"
+    }]  
+}
