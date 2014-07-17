@@ -2,22 +2,22 @@
   "name": "pagequery",
   "title": "PageQuery",
   "id": "jid1-mSCY87q7o5wbXg",
-  "description": "Execute jQuery and show results from a web page.",
-  "author": "prasad@sunspikes.com",
+  "description": "Execute jQuery/JavaScript and show results from a web page.",
+  "author": "Krishnaprasad MG <sunspikes@gmail.com>",
   "license": "MPL 2.0",
-  "version": "0.1",
+  "version": "0.2",
+  "icon": "./data/pagequery-32.png",
+  "icon64": "./data/pagequery-64.png",
   "preferences": [{
         "name": "pqUrl",
         "title": "URL",
-        "description": "The web page URL on which the the jQuery will be executed.",
-        "type": "string",
-        "value": "http://www.nokia.com/global/support/software-update/wp8-software-update/availability-in-europe/"
+        "description": "The web page URL on which the the jQuery/JavaScript will be executed.\n Example:\n https://news.ycombinator.com",
+        "type": "string"
     },
     {
         "name": "pqCode",
         "title": "Code",
-        "description": "the jQuery one liner to be executed.",
-        "type": "string",
-        "value": "$('h3:contains(Finland)').next().find('td:contains(1020)').parent().find('td:last-child').text()"
+        "description": "The jQuery/JavaScript one liner to be executed.\n Example (shows first HN Link):\n $('table tr:nth-child(3) table tr:first-child td:nth-child(3) a').attr('href')",
+        "type": "string"
     }]  
 }
