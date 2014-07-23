@@ -5,17 +5,17 @@
   "description": "Execute jQuery/JavaScript and show results from a web page.",
   "author": "Krishnaprasad MG <sunspikes@gmail.com>",
   "license": "MPL 2.0",
-  "version": "0.3",
+  "version": "0.4.1",
   "icon": "./data/pagequery-32.png",
   "icon64": "./data/pagequery-64.png",
   "preferences": [{
-        "name": "pqUrl",
+        "name": "extensions.pageQuery.pqUrl",
         "title": "URL",
         "description": "The web page URL on which the the jQuery/JavaScript will be executed.\n Example:\n https://news.ycombinator.com",
         "type": "string"
     },
     {
-        "name": "pqCode",
+        "name": "extensions.pageQuery.pqCode",
         "title": "Code",
         "description": "The jQuery/JavaScript one liner to be executed.\n Example (shows first HN Link):\n $('table tr:nth-child(3) table tr:first-child td:nth-child(3) a').attr('href')",
         "type": "string"
