@@ -1,6 +1,6 @@
 ## PageQuery for Firefox
 
-A simple Mozilla Firefox extension to Execute a jQuery/Javascript snippet on a web page on demand and show the response. (Basically to watch for DOM changes in a web page.)
+A simple Mozilla Firefox extension to Execute a jQuery/Javascript snippet on a web page on demand and show the response. (Basically to watch for changes in a web page.)
 
 ####Why this was created?
 I wanted to check the wp8.1 update availability of Lumia 1020 in my country while i am at work (I just don't want to go to the support site and refresh and see every time)
