@@ -5,7 +5,7 @@
   "description": "Execute jQuery/JavaScript and show results from a web page.",
   "author": "Krishnaprasad MG <sunspikes@gmail.com>",
   "license": "MPL 2.0",
-  "version": "0.5",
+  "version": "0.6",
   "icon": "./data/pagequery-32.png",
   "icon64": "./data/pagequery-64.png",
   "preferences": [{
